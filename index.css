@@ -1,0 +1,41 @@
+p{
+    display: inline-block;
+}
+div#color{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto ;
+    border: 5px solid #000;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+p.red{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    pading: 10px;
+}
+
+p.blue{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 4, 248);
+    margin: 10px;
+    pading: 10px;
+    position: relative;  
+    top: 22.5px;
+}
+
+p.green{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 223, 10);
+    margin: 10px;
+    pading: 10px;  
+    position: relative;  
+    top: 45px;
+}
